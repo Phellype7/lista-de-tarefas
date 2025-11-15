@@ -1,3 +1,4 @@
+import streamlit as st
 lista=[]
 with open('lista de tarefas.txt', 'r') as f:
     for linha in f:
@@ -45,3 +46,4 @@ while True:
     elif a==4:
         print('Saindo...')
         break
+
